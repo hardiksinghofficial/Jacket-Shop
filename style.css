@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100% ;
+    background-color: rgb(241, 243, 246);
+
+
+}
+#nav{
+
+    height: 100px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0px 30px;
+
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#nav i{
+    background-color:black ;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+#center {
+    
+   
+    width: 100%;
+    padding: 20px 80px;
+   /* background-color: red;*/
+   
+}
+#center h1{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 86px;
+
+}
+   
+#center-in{
+
+   
+   /* background-color: red;*/
+    width: 100%;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#center-in p{
+    font-size: 22px ;
+    font-weight: 600;
+    line-height: 32px;
+   
+}
+#right{
+
+    width: 20%;
+}
+.elem{
+          
+   /* background-color: yellow;*/
+   /* margin: 5px;*/
+    padding: 20px 0;
+    border-top: 2px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+
+
+
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.elem:hover i{
+
+    opacity: 1;
+
+}
+.elem:hover {
+    background-color: rgb(228, 224, 224);
+}
+.elem:hover a{
+    
+    text-decoration: underline;
+}
+#bottom{
+
+    height: 40%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://media.istockphoto.com/id/517870309/photo/street-fashion-stylish-young-girl-in-leather-jacket-and-sunglas.jpg?s=2048x2048&w=is&k=20&c=mmZTj1TDmzEvPx8c685mcxYQ3vztK3eYI8IniQ9fNlw=);
+ 
+    
+    background-size:cover;
+    backgroung-position: 0% 50%;
+
+
+
+}
+
+
+
+
+
+
